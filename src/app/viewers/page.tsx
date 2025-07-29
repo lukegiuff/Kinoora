@@ -153,7 +153,7 @@ export default async function ViewersPage() {
       <div className="section-padding bg-white relative">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-16 text-gray-900">
-            What You'll Discover
+            What You&apos;ll Discover
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -164,7 +164,7 @@ export default async function ViewersPage() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold mb-3 text-gray-900">Independent Films</h3>
-              <p className="text-sm text-gray-700">Intimate character studies to genre-defying adventures that mainstream won't touch.</p>
+              <p className="text-sm text-gray-700">Intimate character studies to genre-defying adventures that mainstream won&apos;t touch.</p>
             </div>
 
             <div className="text-center">

@@ -78,7 +78,7 @@ export default async function AboutPage() {
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-teal-500 mx-auto mb-8 rounded-full"></div>
           <div className="max-w-4xl mx-auto">
             <blockquote className="text-xl md:text-2xl font-bold text-gray-900 mb-8 leading-relaxed">
-              "To empower filmmakers, celebrate creativity, and connect audiences with the best in independent film and series."
+              &ldquo;To empower filmmakers, celebrate creativity, and connect audiences with the best in independent film and series.&rdquo;
             </blockquote>
             <p className="text-base text-gray-700 leading-relaxed">
               We believe that every story deserves to be told, and every filmmaker deserves a fair chance to reach their audience. At kinoora, we&apos;re not just building a platform—we&apos;re fostering a community where creativity thrives, where artists maintain control of their work, and where genuine connections form between creators and their audiences.

@@ -47,15 +47,15 @@ export default async function FilmmakerPage() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-teal-500 mx-auto mb-6 rounded-full"></div>
             <p className="text-base text-gray-700 max-w-3xl mx-auto">
-              Be one of just 50 pioneering filmmakers at the heart of Kinoora's journey
+              Be one of just 50 pioneering filmmakers at the heart of Kinoora&apos;s journey
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">Be One of the First. Shape What's Next.</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gray-900">Be One of the First. Shape What&apos;s Next.</h3>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Step into the spotlight as a <strong>Kinoora Founding Filmmaker</strong>—an exclusive community of creators who will shape the platform's future from day one.
+                Step into the spotlight as a <strong>Kinoora Founding Filmmaker</strong>—an exclusive community of creators who will shape the platform&apos;s future from day one.
               </p>
               <a href="#" className="btn-primary px-8 py-4 text-lg font-semibold">
                 Join the Waitlist
@@ -165,7 +165,7 @@ export default async function FilmmakerPage() {
             Ready to Join the Movement?
           </h2>
           <p className="text-base text-white/90 mb-8 max-w-3xl mx-auto">
-            Be part of the platform that's changing how independent films and series reach their audiences.
+            Be part of the platform that&apos;s changing how independent films and series reach their audiences.
           </p>
           <a href="#" className="btn-secondary px-8 py-4 text-lg font-semibold">
             Become a Founding Filmmaker

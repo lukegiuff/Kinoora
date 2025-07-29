@@ -1,5 +1,6 @@
 import { getPageBySlug } from '@/lib/content'
 import { notFound } from 'next/navigation'
+import Link from 'next/link'
 
 export default async function ContactPage() {
   const pageContent = await getPageBySlug('contact')
@@ -201,9 +202,9 @@ export default async function ContactPage() {
                   <span className="text-sm text-gray-700">Content guidelines</span>
                 </li>
               </ul>
-              <a href="/#faq" className="btn-outline px-6 py-3 text-base font-semibold">
+              <Link href="/#faq" className="btn-outline px-6 py-3 text-base font-semibold">
                 View FAQ Section
-              </a>
+              </Link>
             </div>
 
             <div className="bg-gradient-to-br from-purple-50 to-teal-50 rounded-2xl p-8">
