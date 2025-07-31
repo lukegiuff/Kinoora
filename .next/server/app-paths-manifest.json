@@ -1,10 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
-  "/filmmakers/page": "app/filmmakers/page.js",
-  "/contact/page": "app/contact/page.js",
   "/viewers/page": "app/viewers/page.js",
-  "/blog/[slug]/page": "app/blog/[slug]/page.js"
+  "/filmmakers/page": "app/filmmakers/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js"
 }

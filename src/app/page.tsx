@@ -29,7 +29,7 @@ export default async function HomePage() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/assets/images/hero_image.png)'
+            backgroundImage: 'url(/assets/images/hero_image.jpg)'
           }}
         ></div>
         {/* Less transparent overlay */}
@@ -154,6 +154,10 @@ export default async function HomePage() {
                   <div className="w-5 h-5 rounded-full flex-shrink-0 mt-1 shadow-sm" style={{backgroundColor: '#7a33ab'}}></div>
                   <p className="text-sm text-gray-700">A supportive, growing community.</p>
                 </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-5 h-5 rounded-full flex-shrink-0 mt-1 shadow-sm" style={{backgroundColor: '#7a33ab'}}></div>
+                  <p className="text-sm text-gray-700">A new era of self-distribution without any gatekeeping.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -161,7 +165,7 @@ export default async function HomePage() {
       </div>
 
       {/* FAQ Section - Light Grey with pattern */}
-      <div className="section-padding bg-gray-100 relative border-t border-gray-200">
+      <div id="faq" className="section-padding bg-gray-100 relative border-t border-gray-200">
         {/* Geometric pattern */}
         <div className="absolute inset-0 opacity-30" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2551c7be' fill-opacity='0.03'%3E%3Cpath d='M20 20c0 11.046-8.954 20-20 20v-40c11.046 0 20 8.954 20 20zM40 20c0 11.046-8.954 20-20 20v-40c11.046 0 20 8.954 20 20z'/%3E%3C/g%3E%3C/svg%3E")`,

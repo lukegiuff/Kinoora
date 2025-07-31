@@ -63,25 +63,155 @@ export default async function FilmmakerPage() {
             </div>
             <div className="bg-gradient-to-br from-purple-50 to-teal-50 rounded-2xl p-8">
               <h4 className="text-xl font-bold mb-6 text-gray-900">Founding Member Benefits</h4>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 rounded-full flex-shrink-0 mt-0.5" style={{backgroundColor: '#7a33ab'}}></div>
-                  <p className="text-gray-700"><strong>Beta Tester Status:</strong> First access to new features and direct input on platform direction</p>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}>
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Beta Tester Status</h3>
+                    <p className="text-gray-700">First access to new features and direct input on platform direction</p>
+                  </div>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 rounded-full flex-shrink-0 mt-0.5" style={{backgroundColor: '#51c7be'}}></div>
-                  <p className="text-gray-700"><strong>Higher Revenue Shares:</strong> Boosted earnings during your first year</p>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}>
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Higher Revenue Shares</h3>
+                    <p className="text-gray-700">Boosted earnings during your first year</p>
+                  </div>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 rounded-full flex-shrink-0 mt-0.5" style={{backgroundColor: '#34124a'}}></div>
-                  <p className="text-gray-700"><strong>Founding Filmmaker Badge:</strong> Special profile recognition as a Kinoora original</p>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}>
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Founding Filmmaker Badge</h3>
+                    <p className="text-gray-700">Special profile recognition as a Kinoora original</p>
+                  </div>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 rounded-full flex-shrink-0 mt-0.5" style={{backgroundColor: '#7a33ab'}}></div>
-                  <p className="text-gray-700"><strong>Exclusive Community:</strong> Join a select circle of 50 pioneering filmmakers</p>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}>
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Exclusive Community</h3>
+                    <p className="text-gray-700">Join a select circle of 50 pioneering filmmakers</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}>
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Premium Features Access</h3>
+                    <p className="text-gray-700">Free access to paid premium features like advanced analytics and subtitle translations</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}>
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Lifetime Premium Support</h3>
+                    <p className="text-gray-700">Dedicated support and assistance throughout your journey on Kinoora</p>
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* How We Choose Founding Filmmakers */}
+      <div className="section-padding bg-gray-50 relative">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-900">
+              How Do We Choose the Founding Filmmakers?
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-teal-500 mx-auto mb-6 rounded-full"></div>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-base text-gray-700 leading-relaxed">
+                Sign up for the waitlist to stay in the loop. When the time comes, we will reach out and you'll have the chance to claim your spot as one of our 50 founding filmmakers—first come, first serve.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Content Types */}
+      <div className="section-padding bg-white relative">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-900">
+              Is Kinoora the Right Platform for Me?
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-teal-500 mx-auto mb-6 rounded-full"></div>
+            <p className="text-base text-gray-700 max-w-3xl mx-auto">
+              We are not the new TikTok or YouTube. Our platform is designed for original cinematic content.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            <div className="text-center">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{backgroundColor: '#7a33ab'}}>
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-3 text-gray-900">Independent Films</h3>
+              <p className="text-sm text-gray-700">Feature-length narratives, character studies, and genre-defying adventures.</p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{backgroundColor: '#51c7be'}}>
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-3 text-gray-900">Original Series</h3>
+              <p className="text-sm text-gray-700">Multi-episode storytelling with complete creative freedom for showrunners.</p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{backgroundColor: '#34124a'}}>
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-3 text-gray-900">Documentary Stories</h3>
+              <p className="text-sm text-gray-700">Real stories, investigative pieces, and perspectives that need to be heard.</p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{backgroundColor: '#7a33ab'}}>
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-3 text-gray-900">Short Films</h3>
+              <p className="text-sm text-gray-700">Powerful storytelling in condensed format—from 1 minute to 40 minutes.</p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <p className="text-sm text-gray-600">
+              Not sure if your film or series fits? Check out our <a href="/#faq" className="text-purple-600 hover:text-purple-800 underline font-medium transition-colors">FAQ</a> for more details about content guidelines.
+            </p>
           </div>
         </div>
       </div>

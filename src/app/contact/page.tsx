@@ -186,11 +186,11 @@ export default async function ContactPage() {
                   <span className="text-sm text-gray-700">Platform launch timeline</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <div className="w-5 h-5 rounded-full flex-shrink-0 mt-1" style={{backgroundColor: '#51c7be'}}></div>
+                  <div className="w-5 h-5 rounded-full flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}></div>
                   <span className="text-sm text-gray-700">Filmmaker and viewer programs</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <div className="w-5 h-5 rounded-full flex-shrink-0 mt-1" style={{backgroundColor: '#34124a'}}></div>
+                  <div className="w-5 h-5 rounded-full flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}></div>
                   <span className="text-sm text-gray-700">Technical requirements</span>
                 </li>
                 <li className="flex items-start space-x-3">
@@ -198,7 +198,7 @@ export default async function ContactPage() {
                   <span className="text-sm text-gray-700">Revenue sharing details</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <div className="w-5 h-5 rounded-full flex-shrink-0 mt-1" style={{backgroundColor: '#51c7be'}}></div>
+                  <div className="w-5 h-5 rounded-full flex-shrink-0 mt-1" style={{backgroundColor: '#7a33ab'}}></div>
                   <span className="text-sm text-gray-700">Content guidelines</span>
                 </li>
               </ul>
@@ -223,7 +223,7 @@ export default async function ContactPage() {
                   <span className="text-sm text-gray-700">Join our newsletter for regular updates</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  <div className="w-4 h-4 rounded-full" style={{backgroundColor: '#51c7be'}}></div>
+                  <div className="w-4 h-4 rounded-full" style={{backgroundColor: '#7a33ab'}}></div>
                   <span className="text-sm text-gray-700">Follow us on social media</span>
                 </li>
               </ul>

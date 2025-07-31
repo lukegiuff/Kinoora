@@ -42,8 +42,12 @@
 
   /* Hero and CTA Buttons */
   .btn-primary {
-    @apply bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
-    background: linear-gradient(135deg, var(--kinoora-primary), var(--kinoora-tertiary));
+    @apply text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+    background: var(--kinoora-primary);
+  }
+  
+  .btn-primary:hover {
+    background: #8c3fb8;
   }
   
   .btn-secondary {

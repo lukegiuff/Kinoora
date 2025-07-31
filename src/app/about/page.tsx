@@ -160,6 +160,18 @@ export default async function AboutPage() {
                 Advanced services like subtitle translation and detailed analytics help filmmakers reach broader audiences.
               </p>
             </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{backgroundColor: '#34124a'}}>
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-3 text-gray-900">Innovation & Accessibility</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                We are committed to constant innovation and making independent films and series accessible to all. We'll continuously add new features, making the platform better for both creators and viewers.
+              </p>
+            </div>
           </div>
         </div>
       </div>
