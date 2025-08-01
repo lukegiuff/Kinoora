@@ -1,5 +1,6 @@
 import { getPageBySlug } from '@/lib/content'
 import { notFound } from 'next/navigation'
+import Link from 'next/link'
 
 export default async function FilmmakerPage() {
   const pageContent = await getPageBySlug('filmmakers')
@@ -146,7 +147,7 @@ export default async function FilmmakerPage() {
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-teal-500 mx-auto mb-6 rounded-full"></div>
             <div className="max-w-3xl mx-auto">
               <p className="text-base text-gray-700 leading-relaxed">
-                Sign up for the waitlist to stay in the loop. When the time comes, we will reach out and you'll have the chance to claim your spot as one of our 50 founding filmmakers—first come, first serve.
+                Sign up for the waitlist to stay in the loop. When the time comes, we will reach out and you&apos;ll have the chance to claim your spot as one of our 50 founding filmmakers—first come, first serve.
               </p>
             </div>
           </div>
@@ -210,7 +211,7 @@ export default async function FilmmakerPage() {
 
           <div className="text-center">
             <p className="text-sm text-gray-600">
-              Not sure if your film or series fits? Check out our <a href="/#faq" className="text-purple-600 hover:text-purple-800 underline font-medium transition-colors">FAQ</a> for more details about content guidelines.
+              Not sure if your film or series fits? Check out our <Link href="/#faq" className="text-purple-600 hover:text-purple-800 underline font-medium transition-colors">FAQ</Link> for more details about content guidelines.
             </p>
           </div>
         </div>

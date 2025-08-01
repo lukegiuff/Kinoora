@@ -84,7 +84,7 @@ export default async function ViewersPage() {
               </div>
               <h3 className="text-lg font-bold mb-3 text-gray-900">Unique Stories</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Stream unique, diverse and original stories you won't find on mainstream platforms.
+                Stream unique, diverse and original stories you won&apos;t find on mainstream platforms.
               </p>
             </div>
           </div>

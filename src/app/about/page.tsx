@@ -169,7 +169,7 @@ export default async function AboutPage() {
               </div>
               <h3 className="text-lg font-bold mb-3 text-gray-900">Innovation & Accessibility</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                We are committed to constant innovation and making independent films and series accessible to all. We'll continuously add new features, making the platform better for both creators and viewers.
+                We are committed to constant innovation and making independent films and series accessible to all. We&apos;ll continuously add new features, making the platform better for both creators and viewers.
               </p>
             </div>
           </div>
