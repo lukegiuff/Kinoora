@@ -1,7 +1,5 @@
 {
   "/page": "app/page.js",
   "/viewers/page": "app/viewers/page.js",
-  "/filmmakers/page": "app/filmmakers/page.js",
-  "/about/page": "app/about/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/filmmakers/page": "app/filmmakers/page.js"
 }

@@ -12,11 +12,11 @@ export default async function HomePage() {
   }
 
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       {/* Background Pattern */}
       <div className="fixed inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-50 via-white to-teal-50"></div>
-        <div className="absolute inset-0 opacity-20" style={{
+        <div className="absolute inset-0 opacity-20 parallax-slow" style={{
           backgroundImage: `radial-gradient(circle at 25% 25%, #7a33ab 0%, transparent 50%), 
                            radial-gradient(circle at 75% 75%, #51c7be 0%, transparent 50%)`,
           backgroundSize: '400px 400px'
@@ -60,7 +60,7 @@ export default async function HomePage() {
       {/* How Kinoora Works - Light Grey Background */}
       <div className="section-padding bg-gray-50 relative border-t border-gray-100">
         {/* Subtle pattern overlay */}
-        <div className="absolute inset-0 opacity-30" style={{
+        <div className="absolute inset-0 opacity-30 parallax-medium" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%237a33ab' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
         }}></div>
         <div className="max-w-7xl mx-auto px-4 relative">
@@ -74,12 +74,14 @@ export default async function HomePage() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center">
-              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg" style={{backgroundColor: '#7a33ab'}}>
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
+          <div className="grid md:grid-cols-3 gap-6 stagger-animation">
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center hover-lift">
+              <div className="w-full h-32 mx-auto mb-6 rounded-lg overflow-hidden image-hover-zoom">
+                <img 
+                  src="/assets/images/Filmmakers.png" 
+                  alt="For Filmmakers" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-lg font-bold mb-3 text-gray-900">For Filmmakers</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
@@ -87,12 +89,13 @@ export default async function HomePage() {
               </p>
             </div>
             
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center">
-              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg" style={{backgroundColor: '#51c7be'}}>
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                </svg>
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center hover-lift">
+              <div className="w-full h-32 mx-auto mb-6 rounded-lg overflow-hidden image-hover-zoom">
+                <img 
+                  src="/assets/images/Viewers.png" 
+                  alt="For Viewers" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-lg font-bold mb-3 text-gray-900">For Viewers</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
@@ -100,11 +103,13 @@ export default async function HomePage() {
               </p>
             </div>
             
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center">
-              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg" style={{backgroundColor: '#34124a'}}>
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center hover-lift">
+              <div className="w-full h-32 mx-auto mb-6 rounded-lg overflow-hidden image-hover-zoom">
+                <img 
+                  src="/assets/images/Community.jpg" 
+                  alt="Community First" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-lg font-bold mb-3 text-gray-900">Community First</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
@@ -118,8 +123,8 @@ export default async function HomePage() {
       {/* Why Join Kinoora - White with subtle gradient */}
       <div className="section-padding bg-gradient-to-br from-white via-gray-50 to-white relative border-t border-gray-100">
         {/* Decorative elements */}
-        <div className="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-purple-100 to-transparent rounded-full blur-3xl opacity-50"></div>
-        <div className="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-teal-100 to-transparent rounded-full blur-3xl opacity-50"></div>
+        <div className="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-purple-100 to-transparent rounded-full blur-3xl opacity-50 floating"></div>
+        <div className="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-teal-100 to-transparent rounded-full blur-3xl opacity-50 floating-delay"></div>
         
         <div className="max-w-7xl mx-auto px-4 relative">
           <div className="text-center mb-12">
@@ -167,7 +172,7 @@ export default async function HomePage() {
       {/* FAQ Section - Light Grey with pattern */}
       <div id="faq" className="section-padding bg-gray-100 relative border-t border-gray-200">
         {/* Geometric pattern */}
-        <div className="absolute inset-0 opacity-30" style={{
+        <div className="absolute inset-0 opacity-30 parallax-slow" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2551c7be' fill-opacity='0.03'%3E%3Cpath d='M20 20c0 11.046-8.954 20-20 20v-40c11.046 0 20 8.954 20 20zM40 20c0 11.046-8.954 20-20 20v-40c11.046 0 20 8.954 20 20z'/%3E%3C/g%3E%3C/svg%3E")`,
         }}></div>
         

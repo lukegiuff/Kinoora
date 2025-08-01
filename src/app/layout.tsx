@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={`${poppins.className} overflow-x-hidden`}>
         <div className="min-h-screen bg-white">
           <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-7xl px-4">
             <nav className="backdrop-blur-md bg-white/90 border border-white/30 shadow-xl rounded-2xl">
